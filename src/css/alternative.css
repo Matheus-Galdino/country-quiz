@@ -1,0 +1,89 @@
+.alternative-container {
+  display: grid;
+
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 100%;
+
+  row-gap: 20px;
+}
+
+.alternative-container button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+
+  background: #ffffff;
+
+  border: 1px solid rgba(125, 128, 202, 0.7);
+  border-radius: 12px;
+
+  padding: 0.625rem;
+
+  color: rgba(96, 102, 208, 0.8);
+  cursor: pointer;
+}
+
+.alternative-container button:hover {
+  color: white;
+  background: #f9a826;
+  border: 1px solid #f9a826;
+}
+
+.alternative h2,
+.alternative p {
+  font-weight: 500;
+  font-size: 24px;
+
+  color: inherit;
+
+  margin-right: 80px;
+}
+
+.alternative p {
+  font-size: 22px;
+
+  text-align: start;
+  flex-grow: 1;
+}
+
+.alternative .material-icons {
+  color: #f2f2f2;
+}
+
+.alternative.correct,
+.alternative.wrong {
+  color: white;
+  border: none;
+}
+
+.alternative.correct {
+  background: #60bf88;
+}
+
+.alternative.correct:hover {
+  background: #60bf88;
+  border: 1px solid #60bf88;
+}
+
+.alternative.wrong {
+  background: #ea8282;
+}
+
+.alternative.wrong:hover {
+  background: #ea8282;
+  border: 1px solid #ea8282;
+}
+
+.material-icons.cancel-icon,
+.material-icons.check-icon {
+  display: none;
+}
+
+.correct .material-icons.check-icon {
+  display: block;
+}
+
+.wrong .material-icons.cancel-icon {
+  display: block;
+}

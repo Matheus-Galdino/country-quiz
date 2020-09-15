@@ -1,0 +1,53 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 60px 30px;
+}
+
+.result-container img {
+  margin-bottom: 2rem;
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 3.2rem;
+
+  color: #1d355d;
+  margin-bottom: 0;
+}
+
+.result-paragraph {
+  color: #1d355d;
+  font-size: 1.2rem;
+}
+
+.counter {
+  font-size: 3.3rem;
+  color: #80ff80;
+}
+
+.try-again-button {
+  background: #ffffff;
+  color: #1d355d;
+
+  border: 2px solid #1d355d;
+  border-radius: 18px;
+
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+
+  font-weight: 600;
+  font-size: 18px;
+
+  cursor: pointer;
+
+  transition: all 0.4s ease;
+}
+
+.try-again-button:hover {
+  background: #1d355d;
+  color: white;
+}

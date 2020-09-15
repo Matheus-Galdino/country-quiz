@@ -1,0 +1,40 @@
+.question-flag {
+  width: 18rem;
+}
+
+.question-title {
+  font-weight: bold;
+  font-size: 28px;
+
+  color: #2f527b;
+
+  margin-bottom: 25px;
+}
+
+.next-button {
+  border: none;
+  border-radius: 12px;
+
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  padding: 15px 35px;
+  margin-top: 30px;
+  float: right;
+
+  background: #f9a826;
+  color: #ffffff;
+
+  opacity: 0;
+
+  transition: all 0.1s ease-in;
+}
+
+.show {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+}
