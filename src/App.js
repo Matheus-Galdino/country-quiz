@@ -92,6 +92,8 @@ function App() {
           setHasChoosed={setHasChoosed}
         />
       )}
+
+      <footer>Matheus Carvalho @devChallenges.io</footer>
     </div>
   );
 }

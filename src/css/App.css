@@ -48,6 +48,19 @@
   padding: 80px 30px 125px;
 }
 
+footer {
+  position: fixed;
+  height: 2vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding-bottom: 2rem;
+  text-align: center;
+
+  color: #cecece;
+}
+
 @media (max-width: 1024px) {
   .container {
     width: 90%;
