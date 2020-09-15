@@ -87,3 +87,9 @@
 .wrong .material-icons.cancel-icon {
   display: block;
 }
+
+@media (max-width: 736px) {
+  .alternative h2 {
+    margin-right: 30px;
+  }
+}
