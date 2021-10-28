@@ -25,10 +25,10 @@ const Alternative = ({ country, setIscorrect, hasChoosed, setHasChoosed }) => {
         onClick={pickAlternative}
         style={{ gridRow: `${country.gridIndex}` }}
       >
-        <h2>{country.letter}</h2>
+        <h2 translate="no">{country.letter}</h2>
         <p>{country.country.name}</p>
-        <span className="material-icons cancel-icon">cancel</span>
-        <span className="material-icons check-icon">check</span>
+        <span className="material-icons cancel-icon" translate="no">cancel</span>
+        <span className="material-icons check-icon" translate="no">check</span>
       </button>
     </>
   );
